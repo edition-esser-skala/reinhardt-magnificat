@@ -1,0 +1,19 @@
+composer:
+  last: Reinhardt
+  first: Johann Georg
+title: Magnificat
+genre: canticle
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (C), timp (C–G), 2 vl, 2 vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: D-Dl
+    shelfmark: Mus.2793-D-3
+    date: 1725–1728
+    rism: 212006795
+    url: https://digital.slub-dresden.de/id426603966
+    license: public domain
+    principal: true
+imslp:
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
