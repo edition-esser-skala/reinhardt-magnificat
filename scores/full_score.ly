@@ -6,20 +6,18 @@
 \book {
   \bookpart {
     \section "Magnificat"
-    % \addTocEntry
+    \addTocEntry
     \paper { indent = 3\cm }
-    \score { %\articulate
+    \score {
       <<
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \transposedName "Clarino I, II" "C" ""
-            % \transpose c c
             \partCombine #'(0 . 10) \MagnificatClarinoI \MagnificatClarinoII
           >>
         >>
         \new Staff {
           \set Staff.instrumentName = \transposedTimp "C" "" "G" ""
-          % \transpose c c
           \MagnificatTimpani
         }
         \new StaffGroup <<
@@ -81,7 +79,7 @@
         \new FiguredBass { \MagnificatBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 60 }
     }
   }
 }

@@ -1,12 +1,15 @@
 \version "2.24.0"
 
 #(define option-movement-title-format "title")
-#(define option-print-all-bar-numbers #t)
+#(define option-print-all-bar-numbers #f)
 \include "ees.ly"
-\include "ees_articulate.ly"
 
 
-tempoMagnificat = \tempoMarkup "Largo"
+tempoMagnificat = \tempoMarkup "Largo" %60
+tempoEtExultavit = \tempoMarkup "Allegro" % 90
+tempoQuiaFecit = \tempoMarkup "Andante" % 75
+tempoEtMisericordia = \tempoMarkup "[Adagio]" % 60
+tempoFecit = \tempoMarkup "Allegro" % 90
 
 
 \include "notes/clno1.ly"
